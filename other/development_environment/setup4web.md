@@ -13,7 +13,7 @@ Chocolatey NuGet is a Machine Package Manager, somewhat like apt-get,
 but built with Windows in mind.  
 If you use this, you can make development environment easier.  
 So you do the following.
-* Find "cmd.exe".
+* Find "cmd.exe" on your PC.
 * Start it **with manager authority**.
 * Type this command on the top page of [Chocolatey](https://chocolatey.org/).   
 ***@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin***
