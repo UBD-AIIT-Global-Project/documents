@@ -1,11 +1,9 @@
 # Set up development environment for Web 
 
 1. Install [Chocolatey](https://chocolatey.org/)
-2. Make a Virtual environment
-3. Create a shortcut of Git-Bash on desktop
-
----
-
+2. Prepare to make a Virtual environment
+3. Make a shortcut of Git-Bash on desktop
+4. Make a Virtual environment
 
 ## 1. Install [Chocolatey](https://chocolatey.org/)
 
@@ -19,14 +17,14 @@ So you do the following.
 ***@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin***
 
 
----
-## 2. Make a virtual environment
+## 2. Prepare to make a virtual environment
 
-Install the following.
+Install the following.  
+If you have them, you don't have to do.
 * [git](https://git-scm.com/)
 * [virtualbox](https://www.virtualbox.org/)
 * [vagrant](https://www.vagrantup.com/)
-* [SublimeText3]()
+* [SublimeText3](http://www.sublimetext.com/)
 
 If you got [Chocolatey](https://chocolatey.org/), you only type  
 ***"choco install git virtualbox vagrant sublimetext3"***  
@@ -35,6 +33,10 @@ please google it or ask me.
 
 ## 3. Create a shortcut of Git-Bash on desktop
 
+You only start "shortcutMaker.exe", and you find "Git-Bash" on your desktop.
+"shortcutMaker.exe" is this repository. Please download it.
 You use this shortcut from now on.
 
-## 
+## 4.Make a Virtual environment
+
+Sorry, now under construction.
