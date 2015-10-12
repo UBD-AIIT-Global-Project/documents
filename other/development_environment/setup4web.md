@@ -34,7 +34,7 @@ please google it or ask me.
 ## 3. Create a shortcut of Git-Bash on desktop
 
 You only start "shortcutMaker.exe", and you find "Git-Bash" on your desktop.  
-"shortcutMaker.exe" is this repository. Please download it.  
+"shortcutMaker.exe" is this repository. Please download it and start it.  
 You use this shortcut from now on.  
 
 ## 4.Make a Virtual environment
