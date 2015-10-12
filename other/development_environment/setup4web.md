@@ -27,7 +27,7 @@ If you have them, you don't have to do.
 * [SublimeText3](http://www.sublimetext.com/)
 
 If you got [Chocolatey](https://chocolatey.org/), you only type  
-***"choco install git virtualbox vagrant sublimetext3"***  
+***"choco install git virtualbox vagrant sublimetext3"*** on "cmd.exe".  
 If you don't know why we should make a virtual environment,  
 please google it or ask me.
 
