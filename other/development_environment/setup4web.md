@@ -16,7 +16,7 @@ So you do the following.
 * Start it **with manager authority**.
 * Type this command on the top page of [Chocolatey](https://chocolatey.org/). 
   
-`@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin`
+***`@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin`***
 
 
 ## 2. Prepare to make a virtual environment
@@ -30,7 +30,7 @@ If you have them, you don't have to do.
 
 If you got [Chocolatey](https://chocolatey.org/), you only type this on "cmd.exe".
 
-`choco install git virtualbox vagrant sublimetext3`  
+***`choco install git virtualbox vagrant sublimetext3`***  
 
 If you don't know why we should make a virtual environment,  
 please google it or ask me.
@@ -45,11 +45,11 @@ You use this shortcut from now on.
 
 Start "Git-Bash" on your desktop and type the following.  
 
-`mkdir enpit`
+***`mkdir enpit`***
 
-`cd enpit`
+***`cd enpit`***
 
-`vagrant init sazanaminoya/enpit2015`
+***`vagrant init sazanaminoya/enpit2015`***
 
 It's takes a while.(about half an hour to 1 hour or so)  
 And then, you have almost finished making a virtual environment.
@@ -59,8 +59,8 @@ And then, you have almost finished making a virtual environment.
 Please check [vagrant commands](http://stackoverflow.com/questions/11424690/what-exactly-do-the-vagrant-commands-do).  
 Start "Git-Bash" on your desktop and type the following.
 
-`vagrant up`
+***`vagrant up`***
 
-`vagrant ssh`
+***`vagrant ssh`***
 
-`sh github-connect.sh`
+***`sh github-connect.sh`***
