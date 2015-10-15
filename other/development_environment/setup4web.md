@@ -51,4 +51,4 @@ Start "Git-Bash" on your desktop and type the following.
 `vagrant init sazanaminoya/enpit2015`
 
 It's takes a while.(about half an hour to 1 hour or so)  
-And then, you have almost finished making a Virtual environment.
+And then, you have almost finished making a virtual environment.
