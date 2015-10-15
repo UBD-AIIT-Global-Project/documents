@@ -13,8 +13,9 @@ If you use this, you can make development environment easier.
 So you do the following.
 * Find "cmd.exe" on your PC.
 * Start it **with manager authority**.
-* Type this command on the top page of [Chocolatey](https://chocolatey.org/).   
-***@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin***
+* Type this command on the top page of [Chocolatey](https://chocolatey.org/). 
+  
+`@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin`
 
 
 ## 2. Prepare to make a virtual environment
@@ -26,8 +27,10 @@ If you have them, you don't have to do.
 * [vagrant](https://www.vagrantup.com/)
 * [SublimeText3](http://www.sublimetext.com/)
 
-If you got [Chocolatey](https://chocolatey.org/), you only type  
-***"choco install git virtualbox vagrant sublimetext3"*** on "cmd.exe".  
+If you got [Chocolatey](https://chocolatey.org/), you only type this on "cmd.exe".
+
+`choco install git virtualbox vagrant sublimetext3`  
+
 If you don't know why we should make a virtual environment,  
 please google it or ask me.
 
@@ -39,4 +42,13 @@ You use this shortcut from now on.
 
 ## 4.Make a Virtual environment
 
-Sorry, it's now under construction.  
+Start "Git-Bash" on your desktop and type the following.  
+
+`mkdir enpit`
+
+`cd enpit`
+
+`vagrant init sazanaminoya/enpit2015`
+
+It's takes a while.(about half an hour to 1 hour or so)  
+And then, you have almost finished making a Virtual environment.
