@@ -15,7 +15,7 @@ Schedule is [here]().
 
 ## How was your task going?
 
-Our task last week is [here](https://github.com/2015-GlobalPBL/documents/edit/master/meeting/weekly/Minutes_Web_2w-Oct-2015.md).  
+Our task last week is [here](documents/meeting/weekly/Minutes_Web_2w-Oct-2015.md).  
 
 1. Make a development environment
 1. Make "Product back log"
