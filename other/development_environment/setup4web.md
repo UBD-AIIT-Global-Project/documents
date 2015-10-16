@@ -45,9 +45,9 @@ You use this shortcut from now on.
 
 Start "Git-Bash" on your desktop and type the following.  
 
-***`mkdir ~/enpit`***
+***`mkdir ~/Documents/workspace/enpit`***
 
-***`cd ~/enpit`***
+***`cd ~/Documents/workspace/enpit`***
 
 ***`vagrant init sazanaminoya/enpit2015`***
 
@@ -59,7 +59,7 @@ And then, you have almost finished making a virtual environment.
 Please check [vagrant commands](http://stackoverflow.com/questions/11424690/what-exactly-do-the-vagrant-commands-do).  
 Start "Git-Bash" on your desktop and type the following.
 
-***`cd ~/enpit`***
+***`cd ~/Documents/workspace/enpit`***
 
 ***`vagrant up`***
 
