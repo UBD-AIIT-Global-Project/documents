@@ -5,6 +5,7 @@
 1. Q&A about your task last week
 1. Our task by Friday next week
 1. Q&A about our task by Friday next week
+1. Others
 
 
 ## Schedule
@@ -46,10 +47,25 @@ Our task by Friday next week is the following.
 
 ### more specific
 
-* 
+*  
 *
 
 
 ## Q&A about our task by Friday next week
 
 If you have any questions or proposal, please tell me.
+
+
+## Others
+
+* Please reply to us　:(
+* If you don't mind, I'd like to work with you on weekdays.  
+  Do you have time?  
+  Please answer via [this](https://drive.google.com/open?id=1RDkz__ggZgmIGriWFcMPS5NenSocvNkNcBnbOp6STc0).
+
+	* Elli(BU) 
+	* Goh(BU)
+	* Muqri(BU)
+	* Puteri(BU)
+	* Josh(NZ)
+	* Wafaa(NZ)
