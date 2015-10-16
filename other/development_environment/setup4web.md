@@ -3,7 +3,7 @@
 1. Install [Chocolatey](https://chocolatey.org/)
 2. Prepare to make a Virtual environment
 3. Make a shortcut of Git-Bash on desktop
-4. Make a Virtual environment
+4. Make a virtual environment
 5. Connect your git on Virtual environment to github
 
 ## 1. Install [Chocolatey](https://chocolatey.org/)
@@ -41,7 +41,7 @@ You only start ["shortcutMaker.exe"](https://drive.google.com/open?id=0B0JdxUCwd
 Please download "shortcutMaker.exe" and start it.  
 You use this shortcut from now on.  
 
-## 4.Make a Virtual environment
+## 4.Make a virtual environment
 
 Start "Git-Bash" on your desktop and type the following.  
 
@@ -54,7 +54,7 @@ Start "Git-Bash" on your desktop and type the following.
 It's takes a while.(about half an hour to 1 hour or so)  
 And then, you have almost finished making a virtual environment.
 
-## 5. Connect your git on Virtual environment to github
+## 5. Connect your git on virtual environment to github
 
 Please check [vagrant commands](http://stackoverflow.com/questions/11424690/what-exactly-do-the-vagrant-commands-do).  
 Start "Git-Bash" on your desktop and type the following.
