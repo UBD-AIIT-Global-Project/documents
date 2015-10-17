@@ -41,6 +41,17 @@ You only start ["shortcutMaker.exe"](https://drive.google.com/open?id=0B0JdxUCwd
 Please download "shortcutMaker.exe" and start it.  
 You use this shortcut from now on.  
 
+If you cannot use this exe, please do the following.
+
+1. **Find "git-bash.exe" in your PC.**  
+   You may probably find it in "C:\Program Files\Git" or "C:\Program Files (x86)\Git".
+1. **Make shortcut on your desktop.**  
+   Right-click on the exe and you can find a kind of "make shortcut".
+1. **Change working directory.**  
+   Right-click the shortcut of "git-bash.exe" on your desktop and click properties.  
+   Write "C:\Users\YOUR_USER_NAME\Documents\workspace\enPiT2015" in "Start in".  
+   (Replace YOUR_USER_NAME to your account for your PC.)
+
 ## 4.Make a virtual environment
 
 Start "Git-Bash" on your desktop and type the following.  
