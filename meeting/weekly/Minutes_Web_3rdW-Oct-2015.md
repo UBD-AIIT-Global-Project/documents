@@ -7,7 +7,7 @@
 
 1. Make a development environment  
 	* By Wednesday or so.
-1. Assign roles to make our product.
+1. Assign roles and make our product.
 	* We don't have so much time, so JP team made a [proposal]().  
 	  And we assigned roles.
 
