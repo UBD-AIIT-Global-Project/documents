@@ -10,7 +10,7 @@
 1. Make our product.
 	* We don't have so much time, JP team made a [proposal]().
 	* |Component|main.html|Rainfall-Daily|Temp&Hum-Daily|  
-	  |-|:-:|:-:|:-:|  
+	  |---|:---:|:---:|:---:|  
 	  ||BU|BU|NZ|  
 	* JP team makes architecture of Data Base and so on.
 1. If you have ideas about our product, please brainstorm via Trello.
