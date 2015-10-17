@@ -9,6 +9,7 @@
 	* By Wednesday or so.
 1. Make our product.
 	* We don't have so much time, JP team made a [proposal]().
+
 	* |Component|main.html|Rainfall-Daily|Temp&Hum-Daily|  
 	  |---|:---:|:---:|:---:|  
 	  ||BU|BU|NZ|  
