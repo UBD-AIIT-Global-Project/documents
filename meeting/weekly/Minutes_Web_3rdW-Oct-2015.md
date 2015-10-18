@@ -8,7 +8,7 @@
 1. Make a development environment  
 	* By Wednesday or so.
 1. Assign roles and make our product.
-	* We don't have so much time, so JP team made a [proposal]().  
+	* We don't have so much time, so JP team made a [proposal](https://drive.google.com/file/d/0B6PTRu12AkpJcFRwa3g1WHNOMG8/view?usp=sharing).  
 	  And we assigned roles.
 
 	  |Component|main.html|Rainfall-Daily|Temp&Hum-Daily|  
