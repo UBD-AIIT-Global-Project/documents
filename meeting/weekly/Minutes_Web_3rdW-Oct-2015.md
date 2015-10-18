@@ -13,7 +13,7 @@
 
 	  |Component|main.html|Rainfall-Daily|Temp&Hum-Daily|  
 	  |---|:---:|:---:|:---:|  
-	  ||BU|BU|NZ|  
+	  |**state**|BU|BU|NZ|  
 	  
 	* JP team makes architecture of Data Base and so on.
 
