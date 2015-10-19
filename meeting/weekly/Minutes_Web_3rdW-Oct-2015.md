@@ -23,4 +23,7 @@
 ## 2.Other
 
 1. Weekday Meeting
-	* 10 PM on Wednesday 
+	* on Wednesday 
+	  |State|BU|NZ|JP|
+          |---|:---:|:---:|:---:|
+          |**Time**|17:00|22:00|18:00|
