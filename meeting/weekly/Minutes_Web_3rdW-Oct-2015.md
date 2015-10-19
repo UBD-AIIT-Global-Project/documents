@@ -12,7 +12,7 @@
 	  And we assigned roles.
 
 	  |Component|main.html|Rainfall-Daily|Temp&Hum-Daily|  
-	  |---|:---:|:---:|:---:|  
+	  |:---:|:---:|:---:|:---:|  
 	  |**state**|BU|BU|NZ|  
 	  
 	* JP team makes architecture of Data Base and so on.
@@ -24,6 +24,7 @@
 
 1. Weekday Meeting
 	* on Wednesday 
+
 	  |State|BU|NZ|JP|
-          |---|:---:|:---:|:---:|
+          |:---:|:---:|:---:|:---:|
           |**Time**|17:00|22:00|18:00|
