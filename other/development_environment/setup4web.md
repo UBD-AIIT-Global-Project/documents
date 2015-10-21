@@ -70,10 +70,34 @@ And then, you have almost finished making a virtual environment.
 Please check [vagrant commands](http://stackoverflow.com/questions/11424690/what-exactly-do-the-vagrant-commands-do).  
 Start "Git-Bash" on your desktop and type the following.
 
-***`cd ~/Documents/workspace/enpit`***
+1. ***`cd ~/Documents/workspace/enpit`***
 
-***`vagrant up`***
+1. ***`vagrant up`***
 
-***`vagrant ssh`***
+1. ***`vagrant ssh`***
 
-***`sh github-connect.sh`***
+1. ***`sh github-connect.sh`***
+
+If you cannot use `sh github-connect.sh`, please do the following.
+
+1. **After `vagrant ssh`, set up Git**  
+  
+  ***`git config --global user.name "YOUR_USER_NAME"`***
+
+  ***`git config --global user.email YOUR_USER_EMAIL`***
+  
+1. **Check your set-up of Git**
+
+  ***`git config --list`***
+  
+1. **Make SSH-KEY.**  
+
+  ***`ssh-keygen -t rsa`***  
+  
+  and press "Enter" key three times. 
+
+1. **Copy SSH-KEY**  
+ 
+  ***`clip < ~/.ssh/id_rsa.pub`***  
+
+1. **Access [GitHub](https://github.com/settings/ssh) and paste it**
