@@ -98,6 +98,6 @@ If you cannot use `sh github-connect.sh`, please do the following.
 
 1. **Copy SSH-KEY**  
  
-  ***`clip < ~/.ssh/id_rsa.pub`***  
+  ***`cat ~/.ssh/id_rsa.pub`***  
 
 1. **Access [GitHub](https://github.com/settings/ssh) and paste it**
