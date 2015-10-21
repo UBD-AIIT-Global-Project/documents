@@ -94,7 +94,7 @@ If you cannot use `sh github-connect.sh`, please do the following.
 
   ***`ssh-keygen -t rsa`***  
   
-  and press "Enter" key three times. 
+  and press "Enter" key three times.(That's means there is nothing to need to input)
 
 1. **Copy SSH-KEY**  
  
