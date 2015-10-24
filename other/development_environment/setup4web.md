@@ -41,6 +41,17 @@ You only start ["shortcutMaker.exe"](https://drive.google.com/open?id=0B0JdxUCwd
 Please download "shortcutMaker.exe" and start it.  
 You use this shortcut from now on.  
 
+If you cannot use this exe, please do the following.
+
+1. **Find "git-bash.exe" in your PC.**  
+   You may probably find it in "C:\Program Files\Git" or "C:\Program Files (x86)\Git".
+1. **Make shortcut on your desktop.**  
+   Right-click on the exe and you can find a kind of "make shortcut".
+1. **Change working directory.**  
+   Right-click the shortcut of "git-bash.exe" on your desktop and click properties.  
+   Write "C:\Users\YOUR_USER_NAME\Documents\workspace\enPiT2015" in "Start in".  
+   (Replace YOUR_USER_NAME to your account for your PC.)
+
 ## 4.Make a virtual environment
 
 Start "Git-Bash" on your desktop and type the following.  
@@ -59,10 +70,34 @@ And then, you have almost finished making a virtual environment.
 Please check [vagrant commands](http://stackoverflow.com/questions/11424690/what-exactly-do-the-vagrant-commands-do).  
 Start "Git-Bash" on your desktop and type the following.
 
-***`cd ~/Documents/workspace/enpit`***
+1. ***`cd ~/Documents/workspace/enpit`***
 
-***`vagrant up`***
+1. ***`vagrant up`***
 
-***`vagrant ssh`***
+1. ***`vagrant ssh`***
 
-***`sh github-connect.sh`***
+1. ***`sh github-connect.sh`***
+
+If you cannot use `sh github-connect.sh`, please do the following.
+
+1. **After `vagrant ssh`, set up Git**  
+  
+  ***`git config --global user.name "YOUR_USER_NAME"`***
+
+  ***`git config --global user.email YOUR_USER_EMAIL`***
+  
+1. **Check your set-up of Git**
+
+  ***`git config --list`***
+  
+1. **Make SSH-KEY.**  
+
+  ***`ssh-keygen -t rsa`***  
+  
+  and press "Enter" key three times.(That's means there is nothing to need to input)
+
+1. **Copy SSH-KEY**  
+ 
+  ***`cat ~/.ssh/id_rsa.pub`***  
+
+1. **Access [GitHub](https://github.com/settings/ssh) and paste it**
