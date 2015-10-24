@@ -1,6 +1,6 @@
 # Manual explanation
 
-# Raspberrypi_InstallGuide_Vol1
+## Raspberrypi_InstallGuide_Vol1
 Raspbian OS install
 
 ## Raspberrypi_InstallGuide_Vol2
