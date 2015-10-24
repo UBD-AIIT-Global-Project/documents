@@ -27,5 +27,5 @@
 	  |:---:|:---:|:---:|:---:|  
 	  |**Time**|17:00|22:00|18:00|  
 
-2. If you make some of our product, plz 'push' to github.
+2. If you make some of our product, plz 'push' to github.  
 JP team is gonna tell you how to push to github.
