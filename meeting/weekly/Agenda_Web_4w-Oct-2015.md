@@ -18,10 +18,10 @@ Did you finish it?
 
 |Component|1|2|  
 |:---:|:---:|:---:|
-|Elli(BU) |?|Doing|
-|Goh(BU) |?|Doing|
-|Muqri(BU) |?|Doing|  
-|Puteri(BU) |?|Doing|  
+|Elli(BU) |Done|Doing|
+|Goh(BU) |Done|Doing|
+|Muqri(BU) |Done|Doing|  
+|Puteri(BU) |Done|Doing|  
 |Josh(NZ) |Done|Doing|  
 |Wafaa(NZ) |Done|Doing|  
 |Yatabe(JP) |Done|Doing|
