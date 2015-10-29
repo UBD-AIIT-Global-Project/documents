@@ -19,9 +19,7 @@
 ## 1. [Host]Start VM and login it.
 
 1. Change directory where is **vagrantfile** with command **'cd'**
-
 1. ***`vagrant up`***
-
 1. ***`vagrant ssh`***
 
 
@@ -35,25 +33,20 @@
 ## 3. [Guest]Do [Clone](https://help.github.com/articles/cloning-a-repository/).(only at the first time)
 
 1. ***`git clone https://github.com/2015-GlobalPBL/development.git`***
-
 1. Set your GitHub name and password.
 
 
 ## 4. [Guest]Make branch and change branch.
 
 1. Change 'development' directory with command **'cd'**
-
 1. [***`git branch "workBranch"`***](https://www.atlassian.com/git/tutorials/using-branches/git-branch)
-
 1. [***`git checkout "workBranch"`***](https://www.atlassian.com/git/tutorials/using-branches/git-checkout)
 
 
 ## 5. [Guest]Reflect your changes to GitHub.
 
 1. ***`git add -A`***
-
 1. ***`git commit -m "commit messages"`***
-
 1. ***`git push origin "workBranch"`***
 
 
