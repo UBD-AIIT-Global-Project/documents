@@ -10,7 +10,8 @@
 	(When GitHub master differs from your master on your PC)
 
 * Host means host machine and guest means guest machine.  
-	[What are a host and guest machine?](http://www.virtualizationadmin.com/faq/host-guest-virtual-machine.html)
+	[What are a host and guest machine?](http://www.virtualizationadmin.com/faq/host-guest-virtual-machine.html)  
+	![hostguest](https://github.com/2015-GlobalPBL/documents/blob/master/other/development_environment/image/HostGuest.png)
 * We use [GitHub-Flow](https://guides.github.com/introduction/flow/).  
 	Please see [this](http://scottchacon.com/2011/08/31/github-flow.html), too.
 
