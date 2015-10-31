@@ -1,20 +1,20 @@
 # Agenda_IOT_4thW-Oct-2015
-
-1. Progress
-Japan : Verified and created manual for ultrasonic sensor.
-Brunei : Completed vol3. How is vol4 ?
-NZ : Completed vol4. how is twitter api ?
-	 
-2. Next week schedule 
-Japan : Create common batch program
-Brunei : Complete vol4 and ultrasonic sensor.
-NZ : Completed twitter api
-
-3. Share new manuals for connecting ultrasonic sensor.
-https://github.com/2015-GlobalPBL/documents/tree/master/manual
-
-Readme.md included simple explanation about each manual.
-	 
-4. Problems
-Brunei; shortage of cable connect from GrovePi to sensor.
-NZ; ultrasonic sensor not delivered.
+<br>
+1. Progress<br>
+Japan : Verified and created manual for ultrasonic sensor.<br>
+Brunei : Completed vol3. How is vol4 ?<br>
+NZ : Completed vol4. how is twitter api ?<br>
+<br>
+2. Next week schedule <br>
+Japan : Create common batch program<br>
+Brunei : Complete vol4 and ultrasonic sensor.<br>
+NZ : Completed twitter api<br>
+<br>
+3. Share new manuals for connecting ultrasonic sensor.<br>
+https://github.com/2015-GlobalPBL/documents/tree/master/manual<br>
+<br>
+Readme.md included simple explanation about each manual.<br>
+<br>
+4. Problems<br>
+Brunei; shortage of cable connect from GrovePi to sensor.<br>
+NZ; ultrasonic sensor not delivered.<br>
