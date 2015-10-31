@@ -24,9 +24,9 @@ Did you finish it?
 |Goh(BU) 	|Done|Doing|Doing|Doing|
 |Muqri(BU) 	|Done|Doing|Doing|Doing|  
 |Puteri(BU) 	|Done|Doing|Doing|Doing|  
-|Josh(NZ) 	|Done|Doing|Doing|Doing|  
-|Wafaa(NZ) 	|Done|Doing|Doing|Doing|  
-|Amirul(NZ) 	|Done|Doing|Doing|Doing|  
+|Josh(NZ) 	|Done|Done|Doing|Doing|  
+|Wafaa(NZ) 	|Done|Done|Doing|Doing|  
+|Amirul(NZ) 	|Done|Done|Doing|Doing|  
 |Yatabe(JP) 	|Done|Doing|Doing|Doing|
 |Yosuke(JP) 	|Doing|Doing|Doing|Doing|
 |Ken(JP) 	|Done|Done|Done|Doing|  
