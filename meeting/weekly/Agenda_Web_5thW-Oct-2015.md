@@ -26,6 +26,7 @@ Did you finish it?
 |Puteri(BU) 	|Done|Doing|Doing|Doing|  
 |Josh(NZ) 	|Done|Doing|Doing|Doing|  
 |Wafaa(NZ) 	|Done|Doing|Doing|Doing|  
+|Amirul(NZ) 	|Done|Doing|Doing|Doing|  
 |Yatabe(JP) 	|Done|Doing|Doing|Doing|
 |Yosuke(JP) 	|Doing|Doing|Doing|Doing|
 |Ken(JP) 	|Done|Done|Done|Doing|  
