@@ -41,7 +41,7 @@ If you have any questions or proposal, please tell me.
 Our task by Friday next week is the following.
 
 * the things undone
-* import data from database
+* import data from database and show it on web page.
 
 
 ## Q&A about our task by Friday next week
