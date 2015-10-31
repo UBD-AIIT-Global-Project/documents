@@ -31,7 +31,6 @@ Did you finish it?
 |Ken(JP) 	|Done|Done|Done|Doing|  
 
 
-
 ## Q&A about your task last week
 
 If you have any questions or proposal, please tell me.
@@ -42,7 +41,6 @@ If you have any questions or proposal, please tell me.
 Our task by Friday next week is the following.
 
 * the things undone
-* make web pages like [this](https://drive.google.com/file/d/0B6PTRu12AkpJcFRwa3g1WHNOMG8/view?usp=sharing)
 * import data from database
 
 
