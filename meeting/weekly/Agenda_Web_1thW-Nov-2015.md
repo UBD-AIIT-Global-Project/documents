@@ -46,9 +46,10 @@ Our task by Friday next week is the following.
   1. ***`vagrant destroy`*** 
   1. ***`vagrant box update`***
 * 
-  ||map|login|DB|
-  |:---:|:---:|:---:|:---:|
-  ||NZ|JP|JP|
+
+  ||map|login|DB|  
+  |:---:|:---:|:---:|:---:|  
+  ||NZ|JP|JP|  
 
 
 ## Q&A about our task by Friday next week
