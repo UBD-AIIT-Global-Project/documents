@@ -49,7 +49,7 @@ Our task by Friday next week is the following.
 
   |map|login|DB|  
   |:---:|:---:|:---:|  
-  |NZ|JP|JP|  
+  |NZ|BU/JP|JP|  
 
 
 ## Q&A about our task by Friday next week
