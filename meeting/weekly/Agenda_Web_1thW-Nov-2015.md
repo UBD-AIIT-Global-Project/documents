@@ -11,25 +11,17 @@
 
 Our task last week is [here](documents/meeting/weekly/Minutes_Web_3w-Oct-2015.md).  
 
-1. Make a development environment
 1. Make html file and code
 1. Clone 2015-GlobalPBL/development
 1. Upload to GitHub
 
 Did you finish it?
 
-|Component|1|2|3|4|  
-|:---:|:---:|:---:|:---:|:---:|
-|Elli(BU) 	|Done|Doing|Doing|Doing|
-|Goh(BU) 	|Done|Doing|Doing|Doing|
-|Muqri(BU) 	|Done|Doing|Doing|Doing|  
-|Puteri(BU) 	|Done|Doing|Doing|Doing|  
-|Josh(NZ) 	|Done|Done|Doing|Doing|  
-|Wafaa(NZ) 	|Done|Done|Doing|Doing|  
-|Amirul(NZ) 	|Done|Done|Doing|Doing|  
-|Yatabe(JP) 	|Done|Doing|Doing|Doing|
-|Yosuke(JP) 	|Doing|Doing|Doing|Doing|
-|Ken(JP) 	|Done|Done|Done|Doing|  
+|Component|1|2|3|  
+|:---:|:---:|:---:|:---:|
+|BU 	|Doing|Doing|Doing|
+|NZ 	|Done|Doing|Doing|  
+|JP 	|Done|Done|Doing|  
 
 
 ## Q&A about your task last week
@@ -42,7 +34,11 @@ If you have any questions or proposal, please tell me.
 Our task by Friday next week is the following.
 
 * the things undone
-* import data from database and show it on web page.
+* update vagrant box
+  1. Change directory where is vagrantfile with command 'cd'
+  1. ***`vagrant destroy`*** 
+  1. ***`vagrant box update`*** 
+  I updated vagrant box because there is something wrong with it.
 
 
 ## Q&A about our task by Friday next week
