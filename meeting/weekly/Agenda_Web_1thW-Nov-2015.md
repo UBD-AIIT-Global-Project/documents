@@ -39,7 +39,7 @@ If you have any questions or proposal, please tell me.
 Our task by Friday next week is the following.
 
 * the things undone
-* update vagrant box
+* update vagrant box  
   I updated vagrant box because there is something wrong with it.  
 
   1. Change directory where is vagrantfile with command 'cd'
