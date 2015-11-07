@@ -40,10 +40,12 @@ Our task by Friday next week is the following.
 
 * the things undone
 * update vagrant box
+  I updated vagrant box because there is something wrong with it.  
+
   1. Change directory where is vagrantfile with command 'cd'
   1. ***`vagrant destroy`*** 
-  1. ***`vagrant box update`***  
-  I updated vagrant box because there is something wrong with it.
+  1. ***`vagrant box update`***
+
 
 
 ## Q&A about our task by Friday next week
