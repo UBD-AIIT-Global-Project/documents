@@ -14,7 +14,7 @@ Here is a [proposal](https://drive.google.com/file/d/0B6PTRu12AkpJcFRwa3g1WHNOMG
 
 ## How was your task going?
 
-Our task last week is [here](documents/meeting/weekly/Minutes_Web_3thW-Nov-2015.md).  
+Our task last week is [here](documents/meeting/weekly/Minutes_Web_1thW-Nov-2015.md).  
 
 1. Clone 2015-GlobalPBL/development
 1. Make html file and code
