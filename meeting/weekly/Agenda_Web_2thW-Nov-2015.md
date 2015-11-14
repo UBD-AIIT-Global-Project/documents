@@ -47,7 +47,7 @@ Our task by Friday next week is the following.
   1. ***`vagrant box update`***
 * 
 
-  |map|login|DB|  
+  |map/camera|login|DB|  
   |:---:|:---:|:---:|  
   |NZ|BU/JP|JP|  
 
