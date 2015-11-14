@@ -10,7 +10,8 @@
 
 ## Confirm the entire product.
 
-Here is a [proposal](https://drive.google.com/file/d/0B6PTRu12AkpJcFRwa3g1WHNOMG8/view?usp=sharing).
+Here is a [proposal](https://drive.google.com/file/d/0B6PTRu12AkpJcFRwa3g1WHNOMG8/view?usp=sharing).  
+And here is a [screen transition diagram](https://docs.google.com/spreadsheets/d/1ejXeuoRZIkkW2z8t62DAjmuX1f-Z3w0-Kdd7dBPjNrY/edit?usp=sharing).
 
 ## How was your task going?
 
