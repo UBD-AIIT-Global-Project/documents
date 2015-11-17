@@ -1,0 +1,10 @@
+var title = "<%= title %>";
+
+var title = new Array(<%
+for (int i = 0; i < title.length; i++ ) {
+if ( i != 0 ) {
+out.print(",");
+}
+out.print("\"" + title + "\"");
+}
+%>);

@@ -1,0 +1,148 @@
+body {
+	font-family:"MS UI Gothic","MS PGothic","Osaka";
+	text-align: center;
+	line-height: 150%;
+	font-size: 12px;
+	color: #333333;
+	margin:20px 0px 10px 0px;
+	background-image:url(./image/back.gif);
+}
+
+a:link {
+	color: #2839B5;
+	text-decoration: underline;
+}
+a:visited {
+	color: #2839B5E;
+	text-decoration: none;
+}
+a:hover {
+	color: #FF0000;
+	text-decoration: underline;
+}
+
+#out {
+	text-align: left;
+	padding: 2px;
+	width:900px;
+	margin:0 auto 0 auto;
+	background:#EFEFEF;
+	border-color:#CCCCCC;
+	border-width:1px;
+	border-style:solid;
+}
+
+#head {
+	text-align: left;
+	margin:0 auto 0 auto;
+	background:#FAFAFA;
+	border-color:#CCCCCC;
+	border-width:1px 1px 1px 1px;
+	border-style:solid;
+	background-image:url(./image/head_back.jpg);
+	}
+	
+#head h1 {
+	padding:30px;
+	margin:0px;
+	font-size:20px;
+	color:#0518A4;
+	font-family: Osaka,Verdana,Arial,Helvetica,sans-serif;
+}
+
+#main {
+	text-align: left;
+	padding: 15px 10px;
+	margin:2px auto 2px auto;
+	background:#FFFFFF;
+	border-color:#CCCCCC;
+	border-width:1px 1px 1px 1px;
+	border-style:solid;
+	height:1850px;
+}
+
+#main2 {
+	text-align: left;
+	padding: 10px 10px;
+	margin:2px auto 2px auto;
+	background:#FFFFFF;
+	border-color:#CCCCCC;
+	border-width:1px 1px 1px 1px;
+	border-style:solid;
+}
+
+#foot {
+	text-align: center;
+	font-size:10px;
+	padding: 10px;
+	height:13px;
+	margin:0 auto 0 auto;
+	border-color:#CCCCCC;
+	border-width:1px 1px 1px 1px;
+	border-style:solid;
+	font-family: Osaka,Verdana,Arial,Helvetica,sans-serif;
+	background-image:url(./image/head_back.jpg);
+}
+
+#left {
+	width:145px;
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+
+#left ul {
+	padding: 0px;
+	margin: 0px;
+	list-style:none;
+}
+#left li {
+	border-color:#cccccc;
+	border-width:1px;
+	border-style:solid;
+	margin: 0px 0px 2px 0px;
+}
+#left li a {
+	background-image:url(./image/menu_back001.gif);
+	padding:5px 0px 5px 10px;
+	display: block;
+	margin: 1px;
+	border-left: #0518A4 2px solid;
+	color: #0066B3;
+	text-decoration: none
+}
+#left li a:hover {
+	background-image:url(./image/menu_back002.gif);
+	border-left: #057DA4 2px solid;
+	color: #0518A4;
+}
+
+#right {
+	width:725px;
+	float:right;
+	padding:0;
+}
+
+#right h2 {
+	color:#0518A4;
+	font-size:14px;
+	padding:5px 10px;
+	border-color:#cccccc;
+	border-width:1px;
+	border-style:solid;
+	margin: 0px 0px 5px 0;
+	background-image:url(./image/title_back.gif);
+}
+
+.tex {
+	line-height:170%;
+	padding:6px 3px 15px 20px;
+}
+
+.tex2 {
+	line-height:170%;
+	padding:6px 3px 15px 20px;
+	font-size:14px;
+	color: #ff1493;
+}

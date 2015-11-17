@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang=ja>
+  <head>
+    <meta charset="UTF-8">
+    <title>OutputPage</title>
+
+    <script type="text/javascript" src="../static/js/Chart.js"></script>
+    <script language="JavaScript"><!--
+        document.write(100);
+        document.write("<br>");
+        document.write(1+2+3);
+        document.write("<br>aaaa<br><font color='#ff0000'><small>(^_^)</small></font>")
+    // --></script>
+  </head>
+  <body>
+    <h1>OutputPage</h1>
+        <div style="width: 50%">
+        <canvas id="canvas" height="450" width="600"></canvas>
+        </div>
+
+        <p>youkoso! {{name}} San</br>
+        Let's go to {{men}} Shop!<p>
+        <a href="/">return to HOME!!!!!!</a>
+        </p>
+
+        <!-- ******************************** -->
+	<script>
+	var randomScalingFactor = function(){ return Math.round(Math.random()*100)};
+        var getlabels = function(){ var lavel =  ["02:00","04:00","06:00","08:00","10:00","12:00","14:00","16:00","18:00","20:00","22:00","24:00"]; return lavel};
+
+	var barChartData = {
+                //var lagel = getlabels();
+		labels :  getlabels(),
+                //labels : ["02:00","04:00","06:00","08:00","10:00","12:00","14:00","16:00","18:00","20:00","22:00","24:00"],
+		datasets : [
+			{
+				fillColor : "rgba(220,220,220,0.5)",
+				strokeColor : "rgba(220,220,220,0.8)",
+				highlightFill: "rgba(220,220,220,0.75)",
+				highlightStroke: "rgba(220,220,220,1)",
+				data : [randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor()]
+			},
+			{
+				fillColor : "rgba(151,187,205,0.5)",
+				strokeColor : "rgba(151,187,205,0.8)",
+				highlightFill : "rgba(151,187,205,0.75)",
+				highlightStroke : "rgba(151,187,205,1)",
+				data : [randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor()]
+			},
+			{
+				fillColor : "rgba(131,131,201,0.3)",
+				strokeColor : "rgba(131,137,201,0.8)",
+				highlightFill : "rgba(131,137,201,0.75)",
+				highlightStroke : "rgba(131,137,201,1)",
+				data : [randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor()]
+			}
+
+		]
+
+	}
+	window.onload = function(){
+		var ctx = document.getElementById("canvas").getContext("2d");
+		window.myBar = new Chart(ctx).Bar(barChartData, {
+			responsive : true
+		});
+	}
+
+	</script>
+  </body>
+
+</html>
