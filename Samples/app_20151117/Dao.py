@@ -4,7 +4,8 @@ from Query import Query
 class Dao:
     def __init__(self):
         #query = ''
-        cnn = psycopg2.connect("dbname=enpit host=localhost user=vagrant password=enpit")
+        #cnn = psycopg2.connect("dbname=enpit host=localhost user=vagrant password=enpit")
+        cnn = psycopg2.connect("dbname=enpit host=52.33.44.1 user=vagrant password=enpit")
         cur = cnn.cursor()
         self.q1 = Query()
         self.cnn = cnn
