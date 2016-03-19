@@ -29,9 +29,13 @@ $ /home/pi/shell/Python/FileCreate_06.py
 
 -------------------------------------
 
-You can see the water level and warning message if water level exceeded its limit.
-Also warning send to twitter.
-https://twitter.com/iot_all
+Put your Raspberry Pi over the prepared container and fix ranger sensor to delect water level of the container.
+
+Pour water into the container.
+
+> You can see the water level and warning message if water level exceeded its limit.
+> Also warning send to twitter.
+> https://twitter.com/iot_all
 
 > Warning said "AIIT" but its statically set up. Its not show real location. 
 
