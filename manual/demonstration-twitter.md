@@ -18,12 +18,13 @@ https://www.google.co.jp/search?q=%E5%AE%B9%E5%99%A8+%E6%B0%B4&tbm=isch&tbo=u&so
 Type below commands after login raspberry pi with SSH
 -------------------------------------
 
-echo 10 > /home/pi/shell/log/threshold_06
+$ echo 10 > /home/pi/shell/log/threshold_06
 > changed the limitation value with your own environemnt
-> # value unit is centimeter between your ranger sensor and water surface
+> value unit is centimeter between your ranger sensor and water surface
 
-/etc/init.d/sensor06.sh stop
-/home/pi/shell/Python/FileCreate_06.py
+$ /etc/init.d/sensor06.sh stop
+
+$ /home/pi/shell/Python/FileCreate_06.py
 
 -------------------------------------
 
