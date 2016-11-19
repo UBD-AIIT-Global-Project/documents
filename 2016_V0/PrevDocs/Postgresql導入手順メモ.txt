@@ -1,0 +1,109 @@
+Postgresql導入手順メモ
+
+１．レポジトリ作成後に導入（https://wiki.postgresql.org/wiki/Apt)
+
+
+sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+sudo apt-get install wget ca-certificates
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install postgresql-9.4 pgadmin3
+
+
+２．Ubuntu上のポスグレパスワード変更(enpitにします) 
+
+vagrant@precise64:~$ sudo passwd postgres
+Enter new UNIX password:
+Retype new UNIX password:
+passwd: password updated successfully
+vagrant@precise64:~$
+
+
+
+３．PostgreSQL上のpostgresユーザのパスワードを設定する。（同じくenpitにします）
+
+vagrant@precise64:~$ su postgres
+Password:
+postgres@precise64:/home/vagrant$ psql
+psql (9.4.5)
+
+Type "help" for help.
+postgres=# alter user postgres with password 'enpit';
+
+
+４．postgresユーザでqsqlを起動し、postgres上にもvagrantユーザを作成
+
+qsql
+
+postgres=#
+postgres=# create user vagrant createdb password 'enpit' login;
+CREATE ROLE
+postgres-# \q
+
+
+
+５．vagrantユーザにスイッチしてDBを作成する
+
+ここまではpostgresがつくってあげる
+CREATE DATABASE vagrant ENCODING 'UTF8' LC_COLLATE 'en_US.UTF-8' LC_CTYPE 'en_US.UTF-8' TEMPLATE template0;
+
+su - vagrant (パスワード）
+#DBを作成する(enpit)というDBを作成
+CREATE DATABASE enpit OWNER vagrant ENCODING 'UTF8' LC_COLLATE 'en_US.UTF-8' LC_CTYPE 'en_US.UTF-8' TEMPLATE template0;
+
+
+
+
+６．vagrantユーザでqsqlにログイン
+
+qsql
+
+作成されたDBを眺める(\l とタイプ）
+
+qsql
+
+vagrant=# \l
+
+                                  List of databases
+   Name    |  Owner   | Encoding |   Collate   |    Ctype    |   Access privileges
+-----------+----------+----------+-------------+-------------+-----------------------
+ enpit     | vagrant  | UTF8     | en_US.UTF-8 | en_US.UTF-8 |　　<<<<--------------------★★★UTF-8で作成
+ postgres  | postgres | LATIN1   | en_US       | en_US       |
+ template0 | postgres | LATIN1   | en_US       | en_US       | =c/postgres          +
+           |          |          |             |             | postgres=CTc/postgres
+ template1 | postgres | LATIN1   | en_US       | en_US       | =c/postgres          +
+           |          |          |             |             | postgres=CTc/postgres
+ vagrant   | vagrant  | LATIN1   | en_US       | en_US       |
+(6 rows)
+
+
+終了する
+vagrant=# \q
+
+
+７．PythonのPostgress接続用APを導入
+
+パッケージ追加
+
+sudo apt-get install -y python3-dev
+sudo apt-get install -y libpq-dev
+
+インストールする
+sudo pip install psycopg2
+
+
+
+８．データベースとTableをCreateする（別紙参照）
+
+
+
+
+そとからつなぐ
+$ vi /etc/postgresql/9.3/main/postgresql.conf
+listen_addressesの欄を探して、それを下のように変えましょう。
+/etc/postgresql/9.3/main/postgresql.conf
+listen_addresses='*'
+設定を変更したら/etc/init.d/postgresql restartで再起動します。
+$ /etc/init.d/postgresql restart
+ * Restarting PostgreSQL 9.3 database server                             [ OK ]
